@@ -1,6 +1,3 @@
 .DS_Store
-Podfile.lock
-Pods/
-*.xcworkspace
 xcuserdata
 UserInterfaceState.xcuserstate
