@@ -28,7 +28,6 @@
 		ED65C0E61E9F202E006A13AB /* Session.m in Sources */ = {isa = PBXBuildFile; fileRef = ED65C0DA1E9F202E006A13AB /* Session.m */; };
 		ED65C0E71E9F202E006A13AB /* TDClient.m in Sources */ = {isa = PBXBuildFile; fileRef = ED65C0DC1E9F202E006A13AB /* TDClient.m */; };
 		ED65C0E81E9F202E006A13AB /* TreasureData.m in Sources */ = {isa = PBXBuildFile; fileRef = ED65C0DF1E9F202E006A13AB /* TreasureData.m */; };
-		ED65C0F21E9F205B006A13AB /* TreasureData.h in Headers */ = {isa = PBXBuildFile; fileRef = ED65C0F01E9F205B006A13AB /* TreasureData.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ED65C0F61E9F206A006A13AB /* Deflate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED65C0CB1E9F202E006A13AB /* Deflate.m */; };
 		ED65C0F71E9F206A006A13AB /* KeenClient.m in Sources */ = {isa = PBXBuildFile; fileRef = ED65C0CF1E9F202E006A13AB /* KeenClient.m */; };
 		ED65C0F81E9F206A006A13AB /* KeenConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = ED65C0D11E9F202E006A13AB /* KeenConstants.m */; };
@@ -47,6 +46,8 @@
 		ED65C1131E9F2074006A13AB /* keen_io_sqlite3.c in Sources */ = {isa = PBXBuildFile; fileRef = ED65C10A1E9F2074006A13AB /* keen_io_sqlite3.c */; };
 		ED65C1141E9F2074006A13AB /* keen_io_sqlite3.h in Headers */ = {isa = PBXBuildFile; fileRef = ED65C10B1E9F2074006A13AB /* keen_io_sqlite3.h */; };
 		ED65C1161E9F21A4006A13AB /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = ED65C1151E9F21A4006A13AB /* libz.tbd */; };
+		ED65C11A1E9F2279006A13AB /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED65C1181E9F2279006A13AB /* Info.plist */; };
+		ED65C11B1E9F2279006A13AB /* TreasureData.h in Headers */ = {isa = PBXBuildFile; fileRef = ED65C1191E9F2279006A13AB /* TreasureData.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -118,8 +119,6 @@
 		ED65C0DE1E9F202E006A13AB /* TreasureData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TreasureData.h; sourceTree = "<group>"; };
 		ED65C0DF1E9F202E006A13AB /* TreasureData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TreasureData.m; sourceTree = "<group>"; };
 		ED65C0EE1E9F205B006A13AB /* TreasureData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TreasureData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		ED65C0F01E9F205B006A13AB /* TreasureData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TreasureData.h; sourceTree = "<group>"; };
-		ED65C0F11E9F205B006A13AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED65C1021E9F2074006A13AB /* NSNotificationCenter+OCMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+OCMAdditions.h"; sourceTree = "<group>"; };
 		ED65C1031E9F2074006A13AB /* OCMArg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMArg.h; sourceTree = "<group>"; };
 		ED65C1041E9F2074006A13AB /* OCMConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMConstraint.h; sourceTree = "<group>"; };
@@ -130,6 +129,8 @@
 		ED65C10A1E9F2074006A13AB /* keen_io_sqlite3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = keen_io_sqlite3.c; sourceTree = "<group>"; };
 		ED65C10B1E9F2074006A13AB /* keen_io_sqlite3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = keen_io_sqlite3.h; sourceTree = "<group>"; };
 		ED65C1151E9F21A4006A13AB /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		ED65C1181E9F2279006A13AB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED65C1191E9F2279006A13AB /* TreasureData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TreasureData.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,7 +173,7 @@
 			children = (
 				ED65C0C91E9F202E006A13AB /* TreasureData_ */,
 				6B7380A7192A09160097D56E /* TreasureDataTests */,
-				ED65C0EF1E9F205B006A13AB /* TreasureData */,
+				ED65C1171E9F2279006A13AB /* TreasureData */,
 				6B738090192A09160097D56E /* Frameworks */,
 				6B73808F192A09160097D56E /* Products */,
 				81303D87A0647FB407EA911A /* Pods */,
@@ -278,15 +279,6 @@
 			path = KeenClient;
 			sourceTree = "<group>";
 		};
-		ED65C0EF1E9F205B006A13AB /* TreasureData */ = {
-			isa = PBXGroup;
-			children = (
-				ED65C0F01E9F205B006A13AB /* TreasureData.h */,
-				ED65C0F11E9F205B006A13AB /* Info.plist */,
-			);
-			path = TreasureData;
-			sourceTree = "<group>";
-		};
 		ED65C0FF1E9F2074006A13AB /* Library */ = {
 			isa = PBXGroup;
 			children = (
@@ -327,6 +319,15 @@
 			path = "sqlite-amalgamation";
 			sourceTree = "<group>";
 		};
+		ED65C1171E9F2279006A13AB /* TreasureData */ = {
+			isa = PBXGroup;
+			children = (
+				ED65C1181E9F2279006A13AB /* Info.plist */,
+				ED65C1191E9F2279006A13AB /* TreasureData.h */,
+			);
+			path = TreasureData;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -337,8 +338,8 @@
 				ED65C10D1E9F2074006A13AB /* OCMArg.h in Headers */,
 				ED65C1101E9F2074006A13AB /* OCMockObject.h in Headers */,
 				ED65C10F1E9F2074006A13AB /* OCMock.h in Headers */,
+				ED65C11B1E9F2279006A13AB /* TreasureData.h in Headers */,
 				ED65C10E1E9F2074006A13AB /* OCMConstraint.h in Headers */,
-				ED65C0F21E9F205B006A13AB /* TreasureData.h in Headers */,
 				ED65C1141E9F2074006A13AB /* keen_io_sqlite3.h in Headers */,
 				ED65C10C1E9F2074006A13AB /* NSNotificationCenter+OCMAdditions.h in Headers */,
 				ED65C1111E9F2074006A13AB /* OCMockRecorder.h in Headers */,
@@ -451,6 +452,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED65C11A1E9F2279006A13AB /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
