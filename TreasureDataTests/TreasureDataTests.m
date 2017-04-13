@@ -7,7 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
-#import "TreasureData.h"
+#import "TreasureDataBase.h"
 #import "TDClient.h"
 
 static NSString *END_POINT = @"http://localhost";

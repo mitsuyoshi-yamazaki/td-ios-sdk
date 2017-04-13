@@ -27,7 +27,7 @@
 		ED65C0E51E9F202E006A13AB /* MF_Base64Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = ED65C0D81E9F202E006A13AB /* MF_Base64Additions.m */; };
 		ED65C0E61E9F202E006A13AB /* Session.m in Sources */ = {isa = PBXBuildFile; fileRef = ED65C0DA1E9F202E006A13AB /* Session.m */; };
 		ED65C0E71E9F202E006A13AB /* TDClient.m in Sources */ = {isa = PBXBuildFile; fileRef = ED65C0DC1E9F202E006A13AB /* TDClient.m */; };
-		ED65C0E81E9F202E006A13AB /* TreasureData.m in Sources */ = {isa = PBXBuildFile; fileRef = ED65C0DF1E9F202E006A13AB /* TreasureData.m */; };
+		ED65C0E81E9F202E006A13AB /* TreasureDataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = ED65C0DF1E9F202E006A13AB /* TreasureDataBase.m */; };
 		ED65C0F61E9F206A006A13AB /* Deflate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED65C0CB1E9F202E006A13AB /* Deflate.m */; };
 		ED65C0F71E9F206A006A13AB /* KeenClient.m in Sources */ = {isa = PBXBuildFile; fileRef = ED65C0CF1E9F202E006A13AB /* KeenClient.m */; };
 		ED65C0F81E9F206A006A13AB /* KeenConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = ED65C0D11E9F202E006A13AB /* KeenConstants.m */; };
@@ -36,7 +36,7 @@
 		ED65C0FB1E9F206A006A13AB /* MF_Base64Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = ED65C0D81E9F202E006A13AB /* MF_Base64Additions.m */; };
 		ED65C0FC1E9F206A006A13AB /* Session.m in Sources */ = {isa = PBXBuildFile; fileRef = ED65C0DA1E9F202E006A13AB /* Session.m */; };
 		ED65C0FD1E9F206A006A13AB /* TDClient.m in Sources */ = {isa = PBXBuildFile; fileRef = ED65C0DC1E9F202E006A13AB /* TDClient.m */; };
-		ED65C0FE1E9F206A006A13AB /* TreasureData.m in Sources */ = {isa = PBXBuildFile; fileRef = ED65C0DF1E9F202E006A13AB /* TreasureData.m */; };
+		ED65C0FE1E9F206A006A13AB /* TreasureDataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = ED65C0DF1E9F202E006A13AB /* TreasureDataBase.m */; };
 		ED65C10C1E9F2074006A13AB /* NSNotificationCenter+OCMAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = ED65C1021E9F2074006A13AB /* NSNotificationCenter+OCMAdditions.h */; };
 		ED65C10D1E9F2074006A13AB /* OCMArg.h in Headers */ = {isa = PBXBuildFile; fileRef = ED65C1031E9F2074006A13AB /* OCMArg.h */; };
 		ED65C10E1E9F2074006A13AB /* OCMConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = ED65C1041E9F2074006A13AB /* OCMConstraint.h */; };
@@ -116,8 +116,8 @@
 		ED65C0DB1E9F202E006A13AB /* TDClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDClient.h; sourceTree = "<group>"; };
 		ED65C0DC1E9F202E006A13AB /* TDClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDClient.m; sourceTree = "<group>"; };
 		ED65C0DD1E9F202E006A13AB /* TreasureData-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TreasureData-Prefix.pch"; sourceTree = "<group>"; };
-		ED65C0DE1E9F202E006A13AB /* TreasureData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TreasureData.h; sourceTree = "<group>"; };
-		ED65C0DF1E9F202E006A13AB /* TreasureData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TreasureData.m; sourceTree = "<group>"; };
+		ED65C0DE1E9F202E006A13AB /* TreasureDataBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TreasureDataBase.h; sourceTree = "<group>"; };
+		ED65C0DF1E9F202E006A13AB /* TreasureDataBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TreasureDataBase.m; sourceTree = "<group>"; };
 		ED65C0EE1E9F205B006A13AB /* TreasureData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TreasureData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED65C1021E9F2074006A13AB /* NSNotificationCenter+OCMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+OCMAdditions.h"; sourceTree = "<group>"; };
 		ED65C1031E9F2074006A13AB /* OCMArg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMArg.h; sourceTree = "<group>"; };
@@ -253,8 +253,8 @@
 				ED65C0DB1E9F202E006A13AB /* TDClient.h */,
 				ED65C0DC1E9F202E006A13AB /* TDClient.m */,
 				ED65C0DD1E9F202E006A13AB /* TreasureData-Prefix.pch */,
-				ED65C0DE1E9F202E006A13AB /* TreasureData.h */,
-				ED65C0DF1E9F202E006A13AB /* TreasureData.m */,
+				ED65C0DE1E9F202E006A13AB /* TreasureDataBase.h */,
+				ED65C0DF1E9F202E006A13AB /* TreasureDataBase.m */,
 				ED65C0FF1E9F2074006A13AB /* Library */,
 			);
 			path = TreasureData_;
@@ -527,7 +527,7 @@
 				ED65C0E61E9F202E006A13AB /* Session.m in Sources */,
 				ED65C0E21E9F202E006A13AB /* KeenConstants.m in Sources */,
 				ED65C0E31E9F202E006A13AB /* KeenProperties.m in Sources */,
-				ED65C0E81E9F202E006A13AB /* TreasureData.m in Sources */,
+				ED65C0E81E9F202E006A13AB /* TreasureDataBase.m in Sources */,
 				ED65C0E11E9F202E006A13AB /* KeenClient.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -537,7 +537,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED65C0F81E9F206A006A13AB /* KeenConstants.m in Sources */,
-				ED65C0FE1E9F206A006A13AB /* TreasureData.m in Sources */,
+				ED65C0FE1E9F206A006A13AB /* TreasureDataBase.m in Sources */,
 				ED65C0F61E9F206A006A13AB /* Deflate.m in Sources */,
 				ED65C0F71E9F206A006A13AB /* KeenClient.m in Sources */,
 				ED65C1131E9F2074006A13AB /* keen_io_sqlite3.c in Sources */,
