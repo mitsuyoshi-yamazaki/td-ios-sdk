@@ -47,7 +47,7 @@
 		ED65C1141E9F2074006A13AB /* keen_io_sqlite3.h in Headers */ = {isa = PBXBuildFile; fileRef = ED65C10B1E9F2074006A13AB /* keen_io_sqlite3.h */; };
 		ED65C1161E9F21A4006A13AB /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = ED65C1151E9F21A4006A13AB /* libz.tbd */; };
 		ED65C11A1E9F2279006A13AB /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED65C1181E9F2279006A13AB /* Info.plist */; };
-		ED65C11B1E9F2279006A13AB /* TreasureData.h in Headers */ = {isa = PBXBuildFile; fileRef = ED65C1191E9F2279006A13AB /* TreasureData.h */; };
+		ED65C11B1E9F2279006A13AB /* TreasureData.h in Headers */ = {isa = PBXBuildFile; fileRef = ED65C1191E9F2279006A13AB /* TreasureData.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -833,6 +833,7 @@
 				ED65C0F51E9F205B006A13AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
