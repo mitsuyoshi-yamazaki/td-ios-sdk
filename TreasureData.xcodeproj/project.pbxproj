@@ -25,6 +25,11 @@
 		6BF8C92F1A3E972C005B1804 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF8C92E1A3E972C005B1804 /* Security.framework */; };
 		6BF8C9311A3E977B005B1804 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF8C9301A3E977B005B1804 /* libz.dylib */; };
 		6BF8C9341A3E9B76005B1804 /* TDClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF8C9331A3E9B76005B1804 /* TDClient.m */; };
+		ED65C07C1E9F0F2D006A13AB /* KeenClient.m in Sources */ = {isa = PBXBuildFile; fileRef = ED65C0721E9F0F2D006A13AB /* KeenClient.m */; };
+		ED65C07D1E9F0F2D006A13AB /* KeenConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = ED65C0741E9F0F2D006A13AB /* KeenConstants.m */; };
+		ED65C07E1E9F0F2D006A13AB /* KeenProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = ED65C0761E9F0F2D006A13AB /* KeenProperties.m */; };
+		ED65C07F1E9F0F2D006A13AB /* KIOEventStore.m in Sources */ = {isa = PBXBuildFile; fileRef = ED65C0781E9F0F2D006A13AB /* KIOEventStore.m */; };
+		ED65C0801E9F0F2D006A13AB /* MF_Base64Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = ED65C07B1E9F0F2D006A13AB /* MF_Base64Additions.m */; };
 		EF5A04E746876D639D752AE1 /* libPods-TreasureData.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 11FADA7F69E6E148978C0F7C /* libPods-TreasureData.a */; };
 /* End PBXBuildFile section */
 
@@ -86,6 +91,18 @@
 		C672A66407ACBC0B49C815A4 /* Pods-TreasureDataTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TreasureDataTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TreasureDataTests/Pods-TreasureDataTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D4602B9A0FADB71F2C158763 /* Pods-Common-TreasureDataTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Common-TreasureDataTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Common-TreasureDataTests/Pods-Common-TreasureDataTests.release.xcconfig"; sourceTree = "<group>"; };
 		E0DB92B1F49BBC30A854EB53 /* libPods-TreasureDataTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TreasureDataTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED65C0701E9F0F2D006A13AB /* KeenClient-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KeenClient-Prefix.pch"; sourceTree = "<group>"; };
+		ED65C0711E9F0F2D006A13AB /* KeenClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeenClient.h; sourceTree = "<group>"; };
+		ED65C0721E9F0F2D006A13AB /* KeenClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeenClient.m; sourceTree = "<group>"; };
+		ED65C0731E9F0F2D006A13AB /* KeenConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeenConstants.h; sourceTree = "<group>"; };
+		ED65C0741E9F0F2D006A13AB /* KeenConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeenConstants.m; sourceTree = "<group>"; };
+		ED65C0751E9F0F2D006A13AB /* KeenProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeenProperties.h; sourceTree = "<group>"; };
+		ED65C0761E9F0F2D006A13AB /* KeenProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeenProperties.m; sourceTree = "<group>"; };
+		ED65C0771E9F0F2D006A13AB /* KIOEventStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KIOEventStore.h; sourceTree = "<group>"; };
+		ED65C0781E9F0F2D006A13AB /* KIOEventStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KIOEventStore.m; sourceTree = "<group>"; };
+		ED65C0791E9F0F2D006A13AB /* KIOEventStore_PrivateMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KIOEventStore_PrivateMethods.h; sourceTree = "<group>"; };
+		ED65C07A1E9F0F2D006A13AB /* MF_Base64Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MF_Base64Additions.h; sourceTree = "<group>"; };
+		ED65C07B1E9F0F2D006A13AB /* MF_Base64Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MF_Base64Additions.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +180,7 @@
 				6BF8C9331A3E9B76005B1804 /* TDClient.m */,
 				6BB5A9D21D1A86CD0006A534 /* Session.h */,
 				6BB5A9D31D1A86EE0006A534 /* Session.m */,
+				ED65C06F1E9F0F2D006A13AB /* KeenClient */,
 			);
 			path = TreasureData;
 			sourceTree = "<group>";
@@ -209,6 +227,25 @@
 				D4602B9A0FADB71F2C158763 /* Pods-Common-TreasureDataTests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		ED65C06F1E9F0F2D006A13AB /* KeenClient */ = {
+			isa = PBXGroup;
+			children = (
+				ED65C0701E9F0F2D006A13AB /* KeenClient-Prefix.pch */,
+				ED65C0711E9F0F2D006A13AB /* KeenClient.h */,
+				ED65C0721E9F0F2D006A13AB /* KeenClient.m */,
+				ED65C0731E9F0F2D006A13AB /* KeenConstants.h */,
+				ED65C0741E9F0F2D006A13AB /* KeenConstants.m */,
+				ED65C0751E9F0F2D006A13AB /* KeenProperties.h */,
+				ED65C0761E9F0F2D006A13AB /* KeenProperties.m */,
+				ED65C0771E9F0F2D006A13AB /* KIOEventStore.h */,
+				ED65C0781E9F0F2D006A13AB /* KIOEventStore.m */,
+				ED65C0791E9F0F2D006A13AB /* KIOEventStore_PrivateMethods.h */,
+				ED65C07A1E9F0F2D006A13AB /* MF_Base64Additions.h */,
+				ED65C07B1E9F0F2D006A13AB /* MF_Base64Additions.m */,
+			);
+			path = KeenClient;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -386,8 +423,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED65C0801E9F0F2D006A13AB /* MF_Base64Additions.m in Sources */,
 				6BB5A9D61D1BBFE60006A534 /* SessionTests.m in Sources */,
 				6B7380AE192A09160097D56E /* TreasureDataTests.m in Sources */,
+				ED65C07D1E9F0F2D006A13AB /* KeenConstants.m in Sources */,
+				ED65C07C1E9F0F2D006A13AB /* KeenClient.m in Sources */,
+				ED65C07F1E9F0F2D006A13AB /* KIOEventStore.m in Sources */,
+				ED65C07E1E9F0F2D006A13AB /* KeenProperties.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
