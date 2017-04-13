@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6B73808D192A09160097D56E"
-               BuildableName = "libTreasureData.a"
-               BlueprintName = "TreasureData"
+               BuildableName = "libTreasureData_.a"
+               BlueprintName = "TreasureData_"
                ReferencedContainer = "container:TreasureData.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -56,8 +56,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6B73808D192A09160097D56E"
-            BuildableName = "libTreasureData.a"
-            BlueprintName = "TreasureData"
+            BuildableName = "libTreasureData_.a"
+            BlueprintName = "TreasureData_"
             ReferencedContainer = "container:TreasureData.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
