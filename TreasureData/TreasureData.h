@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "TreasureData.h"
+#import "TreasureDataBase.h"
 
 //! Project version number for TreasureData.
 FOUNDATION_EXPORT double TreasureDataVersionNumber;
