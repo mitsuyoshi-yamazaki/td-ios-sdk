@@ -4,3 +4,4 @@ Pods/
 *.xcworkspace
 xcuserdata
 UserInterfaceState.xcuserstate
+Carthage/
