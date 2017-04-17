@@ -25,7 +25,6 @@
 		6BF8C92F1A3E972C005B1804 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF8C92E1A3E972C005B1804 /* Security.framework */; };
 		6BF8C9311A3E977B005B1804 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF8C9301A3E977B005B1804 /* libz.dylib */; };
 		6BF8C9341A3E9B76005B1804 /* TDClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF8C9331A3E9B76005B1804 /* TDClient.m */; };
-		EDBEA5751EA0A364006DF8A8 /* TreasureDataSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = EDBEA5731EA0A364006DF8A8 /* TreasureDataSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EDBEA5791EA0A5FD006DF8A8 /* Deflate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B351A75194ABF0F001CBAAD /* Deflate.m */; };
 		EDBEA57A1EA0A5FD006DF8A8 /* TreasureData.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B738098192A09160097D56E /* TreasureData.m */; };
 		EDBEA57B1EA0A5FD006DF8A8 /* TDClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF8C9331A3E9B76005B1804 /* TDClient.m */; };
@@ -52,6 +51,8 @@
 		EDBEA5AA1EA0A688006DF8A8 /* keen_io_sqlite3.c in Sources */ = {isa = PBXBuildFile; fileRef = EDBEA5951EA0A688006DF8A8 /* keen_io_sqlite3.c */; };
 		EDBEA5AB1EA0A688006DF8A8 /* keen_io_sqlite3.h in Headers */ = {isa = PBXBuildFile; fileRef = EDBEA5961EA0A688006DF8A8 /* keen_io_sqlite3.h */; };
 		EDBEA5AD1EA0A6AA006DF8A8 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EDBEA5AC1EA0A6AA006DF8A8 /* libz.tbd */; };
+		EDBEA5B01EA45ED3006DF8A8 /* TreasureDataSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = EDBEA5731EA0A364006DF8A8 /* TreasureDataSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EDBEA5B11EA45F06006DF8A8 /* TreasureData.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B738096192A09160097D56E /* TreasureData.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EF5A04E746876D639D752AE1 /* libPods-TreasureData.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 11FADA7F69E6E148978C0F7C /* libPods-TreasureData.a */; };
 /* End PBXBuildFile section */
 
@@ -353,14 +354,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDBEA5A11EA0A688006DF8A8 /* MF_Base64Additions.h in Headers */,
-				EDBEA5751EA0A364006DF8A8 /* TreasureDataSDK.h in Headers */,
 				EDBEA5A61EA0A688006DF8A8 /* OCMock.h in Headers */,
 				EDBEA59E1EA0A688006DF8A8 /* KIOEventStore.h in Headers */,
 				EDBEA5AB1EA0A688006DF8A8 /* keen_io_sqlite3.h in Headers */,
+				EDBEA5B01EA45ED3006DF8A8 /* TreasureDataSDK.h in Headers */,
 				EDBEA59A1EA0A688006DF8A8 /* KeenConstants.h in Headers */,
 				EDBEA5981EA0A688006DF8A8 /* KeenClient.h in Headers */,
 				EDBEA5A81EA0A688006DF8A8 /* OCMockRecorder.h in Headers */,
 				EDBEA5A31EA0A688006DF8A8 /* NSNotificationCenter+OCMAdditions.h in Headers */,
+				EDBEA5B11EA45F06006DF8A8 /* TreasureData.h in Headers */,
 				EDBEA5A51EA0A688006DF8A8 /* OCMConstraint.h in Headers */,
 				EDBEA5A01EA0A688006DF8A8 /* KIOEventStore_PrivateMethods.h in Headers */,
 				EDBEA5971EA0A688006DF8A8 /* KeenClient-Prefix.pch in Headers */,
