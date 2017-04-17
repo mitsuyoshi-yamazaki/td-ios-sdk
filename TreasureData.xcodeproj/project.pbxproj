@@ -30,16 +30,10 @@
 		EDBEA57B1EA0A5FD006DF8A8 /* TDClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF8C9331A3E9B76005B1804 /* TDClient.m */; };
 		EDBEA57C1EA0A5FD006DF8A8 /* Session.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB5A9D31D1A86EE0006A534 /* Session.m */; };
 		EDBEA5971EA0A688006DF8A8 /* KeenClient-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = EDBEA57E1EA0A688006DF8A8 /* KeenClient-Prefix.pch */; };
-		EDBEA5981EA0A688006DF8A8 /* KeenClient.h in Headers */ = {isa = PBXBuildFile; fileRef = EDBEA57F1EA0A688006DF8A8 /* KeenClient.h */; };
 		EDBEA5991EA0A688006DF8A8 /* KeenClient.m in Sources */ = {isa = PBXBuildFile; fileRef = EDBEA5801EA0A688006DF8A8 /* KeenClient.m */; };
-		EDBEA59A1EA0A688006DF8A8 /* KeenConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = EDBEA5811EA0A688006DF8A8 /* KeenConstants.h */; };
 		EDBEA59B1EA0A688006DF8A8 /* KeenConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = EDBEA5821EA0A688006DF8A8 /* KeenConstants.m */; };
-		EDBEA59C1EA0A688006DF8A8 /* KeenProperties.h in Headers */ = {isa = PBXBuildFile; fileRef = EDBEA5831EA0A688006DF8A8 /* KeenProperties.h */; };
 		EDBEA59D1EA0A688006DF8A8 /* KeenProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = EDBEA5841EA0A688006DF8A8 /* KeenProperties.m */; };
-		EDBEA59E1EA0A688006DF8A8 /* KIOEventStore.h in Headers */ = {isa = PBXBuildFile; fileRef = EDBEA5851EA0A688006DF8A8 /* KIOEventStore.h */; };
 		EDBEA59F1EA0A688006DF8A8 /* KIOEventStore.m in Sources */ = {isa = PBXBuildFile; fileRef = EDBEA5861EA0A688006DF8A8 /* KIOEventStore.m */; };
-		EDBEA5A01EA0A688006DF8A8 /* KIOEventStore_PrivateMethods.h in Headers */ = {isa = PBXBuildFile; fileRef = EDBEA5871EA0A688006DF8A8 /* KIOEventStore_PrivateMethods.h */; };
-		EDBEA5A11EA0A688006DF8A8 /* MF_Base64Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = EDBEA5881EA0A688006DF8A8 /* MF_Base64Additions.h */; };
 		EDBEA5A21EA0A688006DF8A8 /* MF_Base64Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = EDBEA5891EA0A688006DF8A8 /* MF_Base64Additions.m */; };
 		EDBEA5A31EA0A688006DF8A8 /* NSNotificationCenter+OCMAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = EDBEA58D1EA0A688006DF8A8 /* NSNotificationCenter+OCMAdditions.h */; };
 		EDBEA5A41EA0A688006DF8A8 /* OCMArg.h in Headers */ = {isa = PBXBuildFile; fileRef = EDBEA58E1EA0A688006DF8A8 /* OCMArg.h */; };
@@ -52,7 +46,16 @@
 		EDBEA5AB1EA0A688006DF8A8 /* keen_io_sqlite3.h in Headers */ = {isa = PBXBuildFile; fileRef = EDBEA5961EA0A688006DF8A8 /* keen_io_sqlite3.h */; };
 		EDBEA5AD1EA0A6AA006DF8A8 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EDBEA5AC1EA0A6AA006DF8A8 /* libz.tbd */; };
 		EDBEA5B01EA45ED3006DF8A8 /* TreasureDataSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = EDBEA5731EA0A364006DF8A8 /* TreasureDataSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EDBEA5B11EA45F06006DF8A8 /* TreasureData.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B738096192A09160097D56E /* TreasureData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EDBEA5B51EA4600F006DF8A8 /* Deflate.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B351A74194ABF0F001CBAAD /* Deflate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EDBEA5B61EA4600F006DF8A8 /* TreasureData.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B738096192A09160097D56E /* TreasureData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EDBEA5B71EA4600F006DF8A8 /* TDClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BF8C9321A3E9B76005B1804 /* TDClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EDBEA5B81EA4600F006DF8A8 /* Session.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BB5A9D21D1A86CD0006A534 /* Session.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EDBEA5B91EA4600F006DF8A8 /* KeenClient.h in Headers */ = {isa = PBXBuildFile; fileRef = EDBEA57F1EA0A688006DF8A8 /* KeenClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EDBEA5BA1EA4600F006DF8A8 /* KeenConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = EDBEA5811EA0A688006DF8A8 /* KeenConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EDBEA5BB1EA4600F006DF8A8 /* KeenProperties.h in Headers */ = {isa = PBXBuildFile; fileRef = EDBEA5831EA0A688006DF8A8 /* KeenProperties.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EDBEA5BC1EA4600F006DF8A8 /* KIOEventStore.h in Headers */ = {isa = PBXBuildFile; fileRef = EDBEA5851EA0A688006DF8A8 /* KIOEventStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EDBEA5BD1EA4600F006DF8A8 /* KIOEventStore_PrivateMethods.h in Headers */ = {isa = PBXBuildFile; fileRef = EDBEA5871EA0A688006DF8A8 /* KIOEventStore_PrivateMethods.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EDBEA5BE1EA4600F006DF8A8 /* MF_Base64Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = EDBEA5881EA0A688006DF8A8 /* MF_Base64Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EF5A04E746876D639D752AE1 /* libPods-TreasureData.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 11FADA7F69E6E148978C0F7C /* libPods-TreasureData.a */; };
 /* End PBXBuildFile section */
 
@@ -353,22 +356,25 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDBEA5A11EA0A688006DF8A8 /* MF_Base64Additions.h in Headers */,
+				EDBEA5BE1EA4600F006DF8A8 /* MF_Base64Additions.h in Headers */,
 				EDBEA5A61EA0A688006DF8A8 /* OCMock.h in Headers */,
-				EDBEA59E1EA0A688006DF8A8 /* KIOEventStore.h in Headers */,
 				EDBEA5AB1EA0A688006DF8A8 /* keen_io_sqlite3.h in Headers */,
+				EDBEA5B51EA4600F006DF8A8 /* Deflate.h in Headers */,
+				EDBEA5BA1EA4600F006DF8A8 /* KeenConstants.h in Headers */,
 				EDBEA5B01EA45ED3006DF8A8 /* TreasureDataSDK.h in Headers */,
-				EDBEA59A1EA0A688006DF8A8 /* KeenConstants.h in Headers */,
-				EDBEA5981EA0A688006DF8A8 /* KeenClient.h in Headers */,
+				EDBEA5B91EA4600F006DF8A8 /* KeenClient.h in Headers */,
+				EDBEA5BB1EA4600F006DF8A8 /* KeenProperties.h in Headers */,
 				EDBEA5A81EA0A688006DF8A8 /* OCMockRecorder.h in Headers */,
 				EDBEA5A31EA0A688006DF8A8 /* NSNotificationCenter+OCMAdditions.h in Headers */,
-				EDBEA5B11EA45F06006DF8A8 /* TreasureData.h in Headers */,
 				EDBEA5A51EA0A688006DF8A8 /* OCMConstraint.h in Headers */,
-				EDBEA5A01EA0A688006DF8A8 /* KIOEventStore_PrivateMethods.h in Headers */,
+				EDBEA5BC1EA4600F006DF8A8 /* KIOEventStore.h in Headers */,
 				EDBEA5971EA0A688006DF8A8 /* KeenClient-Prefix.pch in Headers */,
-				EDBEA59C1EA0A688006DF8A8 /* KeenProperties.h in Headers */,
+				EDBEA5BD1EA4600F006DF8A8 /* KIOEventStore_PrivateMethods.h in Headers */,
 				EDBEA5A41EA0A688006DF8A8 /* OCMArg.h in Headers */,
 				EDBEA5A71EA0A688006DF8A8 /* OCMockObject.h in Headers */,
+				EDBEA5B61EA4600F006DF8A8 /* TreasureData.h in Headers */,
+				EDBEA5B71EA4600F006DF8A8 /* TDClient.h in Headers */,
+				EDBEA5B81EA4600F006DF8A8 /* Session.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -885,6 +891,7 @@
 				EDBEA5771EA0A364006DF8A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
